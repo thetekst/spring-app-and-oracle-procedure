@@ -1,0 +1,10 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: 'off'
+
+  datasource:
+    username: super
+    password: god
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//10.10.0.3:1521/xe

@@ -1,0 +1,17 @@
+CREATE PROCEDURE someName (
+	param1 IN INTEGER,
+	param2 OUT INTEGER
+)
+IS
+BEGIN
+   param2:=5 * param1;
+END;
+
+-- for test
+
+declare
+   foo number := 30;
+begin
+   f(5,foo);
+   dbms_output.put_line(foo);
+end;
